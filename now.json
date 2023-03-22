@@ -1,0 +1,8 @@
+{
+  "version":2,
+  "name":"express-with-static-image-folder",
+  "builds":[
+    {"src":"**/*.js","use":"@now/node"},
+    {"src":"img/**/*","use":"@now/static"}
+  ]
+}
